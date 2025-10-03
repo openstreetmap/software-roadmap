@@ -61,7 +61,7 @@ This is a mix of development and operations work. There are several areas that c
 * Modernize website architecture
     * Migrate frontend to turbo, webpack
     * Pull in iD and other dependencies via NPM
-    * Migrate authentication to devise
+    * Migrate authentication to third-party library (e.g., devise)
 * Streamline contributor setup
 
 ## Developer experience
