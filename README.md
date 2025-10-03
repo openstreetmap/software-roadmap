@@ -1,6 +1,6 @@
 # Core software roadmap
 
-This is a proposed roadmap for OSM core software projects over the next 18 months or so, based on conversations with a number of OSM community members. A lot is already going on day to day, but with the structure of a roadmap, prospective contributors and the broader community can have more clarity on priorities and expectations.
+This is a proposed roadmap for OSM core software projects through 2026 and into 2027, based on conversations with a number of OSM community members. A lot is already going on day to day, but with the structure of a roadmap, prospective contributors and the broader community can have more clarity on priorities and expectations.
 
 The roadmap is divided into four high-level themes. Under each theme are more specific focus areas, and under those are some representative examples of individual features we hope to land. Some items are well-defined and already discussed in the issue tracker, or even underway, while others will need refinement over time.
 
