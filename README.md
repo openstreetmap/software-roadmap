@@ -4,7 +4,7 @@ This is a proposed roadmap for OSM core software projects through 2026 and into 
 
 The roadmap is divided into four high-level themes. Under each theme are more specific focus areas, and under those are some representative examples of individual features we hope to land. Some items are well-defined and already discussed in the issue tracker, or even underway, while others will need refinement over time.
 
-The roadmap focuses on what we can realistically accomplish if we can interest and/or pay people to work on these tasks. If an item is listed here, you can at least expect maintainers to take the matter seriously. On the other hand, this is not set in stone: if you know of something else we really should accomplish in this timeframe, please make a case for it so we can evaluate any tradeoffs.
+The roadmap focuses on what we can realistically accomplish if we can interest and/or pay people to work on these tasks. If an item is listed here, you can at least expect maintainers to take the matter seriously. On the other hand, this is not set in stone: if you know of something else we really should accomplish in this timeframe, please make a case for it so we can evaluate any tradeoffs. Question marks indicate features that need further discussion with stakeholders or that would be dependent on factors outside the scope of this project, but are still listed in order to give a full picture of the roadmapping discussions that have taken place.
 
 ## Community dynamics
 
