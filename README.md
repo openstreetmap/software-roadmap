@@ -12,7 +12,7 @@ The main website is essential to OSM. It mediates many interactions between comm
 
 Unfortunately, perceived shortcomings in functionality or user experience have led the community to rely too heavily on third-party platforms for communication and coordination. Second-party tools now work around some missing features, but these tools aren’t discoverable enough for the vast majority of users.
 
-With the impending launch of vector tiles, we’re giving users another reason to give the main site another look. Let’s bring the center of attention back here and help mappers contribute more productively.
+With the recent launch of vector tiles, we’re giving users another reason to give the main site another look. Let’s bring the center of attention back here and help mappers contribute more productively.
 
 * Integrate vector tiles into the website beyond the [initial Leaflet-based launch](https://github.com/openstreetmap/openstreetmap-website/pull/6137)
     * [Migrate](https://github.com/gravitystorm/openstreetmap-website/issues/289) from Leaflet to MapLibre
