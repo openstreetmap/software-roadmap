@@ -1,18 +1,26 @@
 # Core software roadmap
 
-This is a proposed roadmap for OSM core software projects through 2026 and into 2027, based on conversations with a number of OSM community members. A lot is already going on day to day, but with the structure of a roadmap, prospective contributors and the broader community can have more clarity on priorities and expectations.
+[![Discuss](https://img.shields.io/badge/Discuss-0088cc?logo=discourse)](https://community.openstreetmap.org/t/core-software-roadmap/138102)
 
-The roadmap is divided into four high-level themes. Under each theme are more specific focus areas, and under those are some representative examples of individual features we hope to land. Some items are well-defined and already discussed in the issue tracker, or even underway, while others will need refinement over time.
+This is a proposed roadmap for OSM [core software](https://wiki.openstreetmap.org/wiki/Core_software) projects through 2026 and into 2027, based on conversations with a number of OSM community members. A lot is already going on day to day, but with the structure of a roadmap, prospective contributors and the broader community can have more clarity on priorities and expectations.
+
+The roadmap is divided into four high-level themes. Under each theme are more specific focus areas, and under those are some representative examples of individual features we hope to land. Some items are well-defined and already discussed in their respective issue tracker, or even underway, while others will need refinement over time.
 
 The roadmap focuses on what we can realistically accomplish if we can interest and/or pay people to work on these tasks. If an item is listed here, you can at least expect maintainers to take the matter seriously. On the other hand, this is not set in stone: if you know of something else we really should accomplish in this timeframe, please make a case for it so we can evaluate any tradeoffs. Question marks indicate features that need further discussion with stakeholders or that would be dependent on factors outside the scope of this project, but are still listed in order to give a full picture of the roadmapping discussions that have taken place.
+
+**Table of Contents**
+- [Community dynamics](#community-dynamics)
+- [Operational sustainability](operational-sustainability)
+- [Developer experience](#developer-experience)
+- [Legal compliance](#legal-compliance)
 
 ## Community dynamics
 
 The main website is essential to OSM. It mediates many interactions between community members and strongly influences overall community health. It focuses on basic functionality, leaving more advanced derivative tools to the broader ecosystem.
 
-Unfortunately, perceived shortcomings in functionality or user experience have led the community to rely too heavily on third-party platforms for communication and coordination. Second-party tools now work around some missing features, but these tools aren’t discoverable enough for the vast majority of users.
+Unfortunately, perceived shortcomings in functionality or user experience have led the community to rely too heavily on third-party platforms for communication and coordination. Second-party tools now work around some missing features, but these tools aren't discoverable enough for the vast majority of users.
 
-With the recent launch of vector tiles, we’re giving users another reason to give the main site another look. Let’s bring the center of attention back here and help mappers contribute more productively.
+With the recent launch of vector tiles, we're giving users another reason to give the main site another look. Let's bring the center of attention back here and help mappers contribute more productively.
 
 * Integrate vector tiles into the website beyond the [initial Leaflet-based launch](https://github.com/openstreetmap/openstreetmap-website/pull/6137)
     * [Migrate](https://github.com/gravitystorm/openstreetmap-website/issues/289) from Leaflet to MapLibre
@@ -27,7 +35,7 @@ With the recent launch of vector tiles, we’re giving users another reason to g
     * [Activity logs](https://github.com/openstreetmap/openstreetmap-website/issues/5298)
 * More robust history view
     * Filtering history by more criteria
-    * Augmented diff generation that doesn’t depend on external DB mirror
+    * Augmented diff generation that doesn't depend on external DB mirror
     * Visualize tag and geometry changes
 * Note management
     * [Metadata on notes](https://github.com/openstreetmap/openstreetmap-website/pull/5904)
@@ -46,7 +54,7 @@ With the recent launch of vector tiles, we’re giving users another reason to g
 
 ## Operational sustainability
 
-This is a mix of development and operations work. There are several areas that could become urgent and costly for the operations team if we don’t pay down technical debt.
+This is a mix of development and operations work. There are several areas that could become urgent and costly for the operations team if we don't pay down technical debt.
 
 * Speed up planet dumps
     * Change compression setting during database backup (expected halving of processing time; requires Postgres upgrade)
@@ -86,3 +94,5 @@ The legal landscape for open data projects has gotten more complex in recent yea
 * [Options](https://github.com/openstreetmap/openstreetmap-website/issues/5804) for showing aggregated content on user profiles
 * Filter PII out of certain API calls, planet dumps for GDPR compliance
 * Any other items needed for OSA and DSA compliance as they come up
+
+**[Back to the top](#core-software-roadmap)**
