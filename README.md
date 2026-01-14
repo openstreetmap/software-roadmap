@@ -67,7 +67,7 @@ This is a mix of development and operations work. There are several areas that c
 * Allow cleanup of GPX traces to reclaim storage space (requires outside help)
     * Reconstitute source ZIP files
 * Modernize website architecture
-    * Migrate frontend to turbo, webpack
+    * Migrate frontend to use latest Rails conventions to [handle assets](https://guides.rubyonrails.org/asset_pipeline.html) as well as to [work with Javascript](https://guides.rubyonrails.org/working_with_javascript_in_rails.html).
     * Pull in iD and other dependencies via NPM
     * Migrate authentication to third-party library (e.g., devise)
 * Streamline contributor setup
