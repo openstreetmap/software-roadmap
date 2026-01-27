@@ -10,7 +10,7 @@ The roadmap focuses on what we can realistically accomplish if we can interest a
 
 **Table of Contents**
 - [Community dynamics](#community-dynamics)
-- [Operational sustainability](operational-sustainability)
+- [Operational sustainability](#operational-sustainability)
 - [Developer experience](#developer-experience)
 - [Legal compliance](#legal-compliance)
 
